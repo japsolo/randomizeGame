@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+:root {
+   --bgColor: rgb(223, 218, 218);
+   --bgColorAlpha: rgba(223, 218, 218, 0.6);
+   --bgDarkColorAlpha: rgba(0, 0, 0, 0.7);
+   --baseColor: rgb(212, 39, 76);
+   --compColor: rgb(149, 30, 55);
+   --compColorHover: rgb(84, 16, 30);
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body,
+html {
+   height: 100vh;
+   font-size: 10px;
+}
+
+body {
+   margin: 0;
+   background: url(../images/bg-pattern-01.png) center top;
+   font-family: 'Manjari', sans-serif;
+   /* animation: bgAnimate linear 16000ms alternate infinite; */
+}
+
+@keyframes bgAnimate {
+   from {
+      background-position: 0 0;
+   }
+
+   to {
+      background-position: -800px -200px;
+   }
+}
+
+.container {
+   width: 100%;
+   min-height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: var(--bgDarkColorAlpha);
+   padding: 0 5%;
+}
+
+h2,
+h6 {
+   margin: 0;
+   color: #ffd9e2;
+   font-size: 8.4em;
+   font-weight: normal;
+   text-shadow: 0 0 0 transparent, 0 0 10px #ff003c, 0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, 0 0 100px #ff003c, 0 0 200px #ff003c;
+   width: 100%;
+   animation: blink 100ms infinite;
+}
+
+h5 {
+   margin: 0;
+   color: #bbf1cb;
+   font-size: 5em;
+   font-weight: normal;
+   text-shadow: 0 0 0 transparent, 0 0 10px #00ff2a, 0 0 20px rgba(0, 255, 42, 0.5), 0 0 40px #00ff2a, 0 0 100px #00ff2a, 0 0 200px #00ff2a;
+   width: 100%;
+}
+
+p {
+   width: 100%;
+   font-size: 3.5em;
+   color: rgb(84, 81, 81);
+   background-color: #f2f2f2;
+   padding: 5px;
+   border: solid 1px var(--compColor);
+   border-radius: 100px;
+}
+
+button {
+   border: none;
+   background-color: #00ff26;
+   color: #222222;
+   font-size: 1.8em;
+   padding: 1em 2em;
+   border-radius: 100px;
+   cursor: pointer;
+   outline: none;
+   box-shadow: 0 0 10px #00ff26;
+   text-transform: uppercase;
+}
+
+button:hover {
+   background-color: #ff003c;
+   color: #ffffff;
+   box-shadow: 0 0 10px #8b0021;
+}
+
+h6 {
+   color: #ffd9e2;
+   font-size: 3em;
+   text-shadow: 0 0 0 transparent, 0 0 10px #ff003c, 0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, 0 0 100px #ff003c, 0 0 200px #ff003c;
+   animation: none;
+   transform: scale(0);
+   transition: 100ms;
+}
+
+.showed {
+   transform: scale(1);
+   margin-bottom: 30px;
+}
+
+@keyframes blink {
+   40% {
+      opacity: 1;
+   }
+
+   42% {
+      opacity: 0.8;
+   }
+
+   43% {
+      opacity: 1;
+   }
+
+   45% {
+      opacity: 0.2;
+   }
+
+   46% {
+      opacity: 1;
+   }
+}
