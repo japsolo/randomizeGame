@@ -1,8 +1,8 @@
 requirejs.config({baseUrl: 'js/'});
 
 requirejs(['questions', 'students'], (questions, students) => {
-	console.log(questions.length, students.length);
-	console.log(questions.length > students.length);
+	// console.log(questions.length, students.length);
+	// console.log(questions.length >= students.length);
 	
 	const body = document.querySelector('body');
 	const h2 = document.querySelector('h2');

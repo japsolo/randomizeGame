@@ -104,4 +104,54 @@ define(() => [
 		question: 'Floats o Flexbox',
 		answer: 'Flexbox 😎'
 	},
+	{
+		subject: 'Música',
+		question: '¿Qué canción lanzó a la fama a Paulo Londra?',
+		answer: 'Cuando te besé'
+	},
+	{
+		subject: 'Tecnología',
+		question: '¿Famoso juego de formato "Battle Royale" desarrollado por Epic Games?',
+		answer: 'Fortnite'
+	},
+	{
+		subject: 'Tecnología',
+		question: '¿Número del último modelo de los iPhone lanzado esta semana?',
+		answer: 'iPhone 11'
+	},
+	{
+		subject: 'Programación II',
+		question: '¿Librería de CSS que vimos la clase pasada?',
+		answer: 'Bootstrap'
+	},
+	{
+		subject: 'Música',
+		question: '¿Famoso cantante británico con quien colaboró Paulo Londra?',
+		answer: 'Ed Sheeran'
+	},
+	{
+		subject: 'Música',
+		question: '¿Qué edad tiene Nicki Nicole?',
+		answer: '18 años'
+	},
+	{
+		subject: 'Cultura general',
+		question: '¿Presidente actual de la Argentina?',
+		answer: 'Mauricio Macri 🐱'
+	},
+	{
+		subject: 'Cultura general',
+		question: 'Karl Lagerfeld, famoso diseñador de modas de la marca:',
+		answer: 'Chanel'
+	},
+	{
+		subject: 'Música',
+		question: '¿Nombre real de J. Balvin?',
+		answer: 'José Álvaro Osorio Balvin'
+	},
+	{
+		subject: 'Música',
+		question: '¿Nombre real de Maluma?',
+		answer: 'Juan Luis Londoño Arias'
+	},
 ]);
